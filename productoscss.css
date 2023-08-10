@@ -1,0 +1,140 @@
+body {
+    margin: auto;
+    font-family: 'Heebo', sans-serif;
+    background: rgba(240, 248, 255, 0.864)
+}
+
+header {
+    padding: 20px;
+    background-color: #af7f1f
+}
+
+#imagenlogo {
+    box-sizing: border-box;
+    margin: -92px 0px -66px -155px;
+    width: 250px;
+    height: 250px;
+}
+
+.caja {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+
+}
+
+nav a {
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+
+    color: rgba(240, 248, 255, 0.772);
+}
+
+.productos {
+    width: 940px;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+}
+
+.productos li {
+    display: inline-block;
+    text-align: center;
+    width: 35%;
+    vertical-align: top;
+    margin:  1.5%;
+    padding: 30px 20px 25px 25px ;
+    box-sizing: border-box;
+    border: 5px solid #af7f1f;
+    border-radius: 10px;
+    border-style:ridge;
+}
+
+.productos li:hover {
+    color: #af7f1f;
+}
+
+.productos li:active {
+    border-color: rgb(0, 0, 0);
+}
+
+.productos h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.productos-descripcion {
+    font-size: 18px;
+}
+
+.producto-precio {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+
+}
+
+
+.Imagenes-servicios {
+    margin: 20px;
+    width: 175px;
+    height: 175px;
+    padding: 5px;
+    box-shadow: 10px 10px 15px rgb(0, 0, 0)
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    background-color: #af7f1f;
+    
+}
+
+footer img {
+    width: 250px;
+}
+
+/* Parte responsiva */
+
+@media screen and (max-width:480px) {
+
+    .caja,
+    .principal {
+        width: auto;
+    }
+
+    nav {
+        position: static;
+    }
+
+    #imagenlogo {
+        margin: auto;
+        width: auto;
+    }
+
+
+    .productos li {
+        display: block;
+
+
+    }
+}

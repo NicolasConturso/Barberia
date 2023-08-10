@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="stylesheet" href="contactoscss.css">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="caja">
+            <h1><img id="imagenlogo" src="./imagenes/logo.png"></h1>
+
+            <nav>
+                <ul>
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="Productos.html">Productos</a></li>
+                    <li><a href="Contactos.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <form>
+            <div>
+                <label for="nombreyapellido"> Nombre y Apellido </label>
+                <input type="text" id="nombreyapellido" class="input-padron" required
+                    placeholder="Ingrese su nombre y apellido completo">
+
+                <label for="correoelectronico"> Correo Electronico</label>
+                <input type="email" id="correoelectronico" class="input-padron" required
+                    placeholder="email@dominio.com">
+
+                <label for="telefono"> Telefono</label>
+                <input type="tel" id="telefono" class="input-padron" required placeholder="(0261)XXXXXX">
+
+
+
+                <label for="mensaje"> Mensaje</label>
+                <textarea id="mensaje" cols="70" rows="10" class="input-padron"> </textarea>
+
+
+            </div>
+
+            <fieldset>
+                <legend>¿Cómo le gustaría que lo contactemos?</legend>
+
+                <label for="radio-telefono"> <input type="radio" name="contacto" value="telefono" id="radio-telefono">
+                    Telefono</label>
+
+
+                <label for=" radio-whatsapp"><input type="radio" name="contacto" value="w hatsapp" id="radio-whatsapp"
+                        checked>Whatsapp</label>
+
+
+
+                <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">
+                    Email</label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>¿En que horario prefiere ser atendido?</legend>
+                <select>
+                    <option>Mañana</option>
+                    <option>Tarde</option>
+                    <option>Noche</option>
+                </select>
+            </fieldset>
+            <label class="checkbox"><input type="checkbox" checked> ¿Le gustaría recibir novedades de la
+                Barbería?</label>
+
+            <input type="submit" value="Enviar Formulario" class="envio">
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horario</th>
+                </tr>
+            </thead>
+            
+
+            <tr>
+                <td>Lunes a Viernes</td>
+                <td>09hs-20hs</td>
+            </tr>
+
+            <tr>
+                <td>Sabado</td>
+                <td>09hs-15hs</td>
+            </tr>
+
+        </table>
+    </main>
+
+
+    <footer>
+        <img src="./imagenes/logo trasparente22.png" alt="logo trasparente">
+        <p>&copy;Copyrigth 2023 - Todos los derechos reservados </p>
+    </footer>
+
+
+</body>
+
+</html>

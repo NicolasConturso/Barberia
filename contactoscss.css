@@ -1,0 +1,153 @@
+body {
+    margin: auto;
+    font-family: 'Heebo', sans-serif;
+    background: rgba(240, 248, 255, 0.864)
+}
+
+header {
+    padding: 20px;
+    background-color: #af7f1f
+}
+
+
+#imagenlogo {
+    box-sizing: border-box;
+    margin: -92px 0px -66px -155px;
+    width: 250px;
+    height: 250px;
+}
+
+.caja {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+
+}
+
+nav a {
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+
+    color: rgba(240, 248, 255, 0.864);
+}
+
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label,
+form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padron {
+    display: block;
+    margin: 0 0 10px;
+    padding: 10px 20px;
+    width: 50%;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    background-color: #af7f1f;
+    /* margin: 10px -3px -44px -36px; */
+    align-items: center;
+}
+
+footer img {
+    width: 250px;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.envio {
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFF;
+    background: #af7f1f;
+    border: none;
+    border-radius: 2pc;
+    transition: 2s all;
+    cursor: pointer;
+
+}
+
+.envio:hover {
+    background: #c8b588;
+    transform: scale(1.2);
+}
+
+table {
+    margin: 40px 40px;
+}
+
+thead {
+    background: #af7f1f;
+    color: #FFFF;
+    font-weight: bold;
+}
+
+td,
+th {
+    border: 1px solid #af7f1f;
+    padding: 8px 15px;
+
+}
+
+/* Parte responsiva */
+
+@media screen and (max-width:480px) {
+
+    .caja,
+    main,
+    .envio {
+        width: auto;
+    }
+
+    nav {
+        position: static;
+    }
+
+    #imagenlogo {
+        margin: auto;
+        width: auto;
+    }
+
+}

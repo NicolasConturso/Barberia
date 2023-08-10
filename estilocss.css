@@ -1,0 +1,146 @@
+body {
+    margin: auto;
+    font-family: 'Heebo', sans-serif;
+    background: rgba(240, 248, 255, 0.864)
+}
+
+header {
+    padding: 20px;
+    background-color: #af7f1f
+}
+
+#imagenlogo {
+    box-sizing: border-box;
+    margin: -92px 0px -66px -155px;
+    width: 250px;
+    height: 250px;
+}
+
+.caja {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+
+}
+
+nav a {
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+
+    color: rgba(240, 248, 255, 0.772);
+}
+
+
+.banner {
+    width: 100%;
+    box-shadow: 10px 10px 20px rgb(0, 0, 0)
+}
+
+.principal {
+
+    padding: 20px;
+
+}
+
+.titulo-principal {
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    clear: left;
+
+}
+
+p {
+    text-align: center;
+}
+
+strong {
+    color: #af7f1f
+}
+
+
+.mapa {
+    padding: 3m 0;
+}
+
+
+
+.diferenciales {
+
+    padding: 30px;
+}
+
+.items {
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.ul-items {
+
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    margin-right: 15%;
+}
+
+
+
+.imagenDiferenciales {
+    width: 30%;
+    margin: 1px 0px 0px -305px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    background-color: #af7f1f;
+    align-items: center;
+}
+
+footer img {
+    width: 250px;
+}
+
+/* Parte responsiva */
+
+@media screen and (max-width:480px) {
+
+    .caja,
+    .principal,
+    .mapa,
+    .diferenciales,
+    .imagenDiferenciales {
+        width: auto;
+    }
+
+    nav {
+        position: static;
+    }
+
+    #imagenlogo {
+        margin: auto;
+        width: auto;
+    }
+
+
+}
